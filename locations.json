@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "SF Location",
+    "street_address": "333 Walnut st.",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94110",
+    "phone": "415.786.0519"
+  },
+  {
+    "id": 2,
+    "name": "Lynn Location",
+    "street_address": "543 Western ave.",
+    "city": "Amesbury",
+    "state": "MA",
+    "zip": "01913",
+    "phone": "978.555.555"
+  },
+  {
+    "id": 3,
+    "name": "Amesbury Location",
+    "street_address": "22 School st",
+    "city": "Amesbury",
+    "state": "MA",
+    "zip": "01913",
+    "phone": "987.555.2378"
+  },
+  {
+    "id": 4,
+    "name": "Boston Location",
+    "street_address": "77 Mass rd.",
+    "city": "Boston",
+    "state": "MA",
+    "zip": "01912",
+    "phone": "617.718.9924"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Hardware Repair",
+    "description": "Gingerbread ice cream lemon drops marshmallow chocolate jelly-o cotton candy dragée cotton candy. Topping candy caramels jujubes macaroon topping. Candy jelly beans biscuit tootsie roll marzipan. Soufflé cupcake chupa chups.",
+    "image": "computer-icon.png"
+  },
+  {
+    "id": 2,
+    "name": "Virus Removal",
+    "description": "Dragée apple pie topping cupcake cake. Dessert sesame snaps cupcake liquorice pudding candy canes jelly-o. Gummi bears bear claw cookie danish chocolate cake tiramisu. Ice cream candy croissant chocolate powder chocolate bar macaroon bear claw.",
+    "image": "computer-icon.png"
+  },
+  {
+    "id": 3,
+    "name": "System Tuneup",
+    "description": "Biscuit jelly-o gummi bears marzipan cookie tiramisu brownie halvah jelly beans. Jujubes jujubes chocolate cake bear claw jelly beans pie fruitcake. Macaroon jelly cotton candy dessert tootsie roll bear claw lemon drops apple pie jujubes. Soufflé pudding oat cake.",
+    "image": "computer-icon.png"
+  }
+]
