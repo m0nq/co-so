@@ -12,16 +12,10 @@
 </div>
 
 <div class="row">
-  <div class="col-lg-4">
-    <h2>Hardware Repairs</h2>
-    <p>Lollipop dessert carrot cake cheesecake cotton candy jelly pastry bear claw gingerbread. Gummies tart cake sweet jujubes sweet roll toffee. Pudding topping cotton candy tootsie roll. Lollipop jelly chupa chups cheesecake danish halvah.</p>
-  </div>
-  <div class="col-lg-4">
-    <h2>Virus Removal</h2>
-    <p>Cotton candy icing dessert icing. Dessert gummi bears gingerbread danish macaroon lollipop. Jelly beans chocolate sesame snaps.</p>
-  </div>
-  <div class="col-lg-4">
-    <h2>System Tuneup</h2>
-    <p>Oat cake ice cream biscuit tootsie roll oat cake tiramisu powder cotton candy jelly. Caramels bear claw ice cream. Dragée sweet roll croissant liquorice gummies marshmallow sweet. Liquorice donut ice cream marzipan.</p>
+  <div ng-repeat="service in services">
+    <div class="col-lg-4">
+      <h2>{{service.name}}</h2>
+      <p>{{service.description}}</p>
+    </div>
   </div>
 </div>

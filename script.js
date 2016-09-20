@@ -1,4 +1,4 @@
-var app = angular.module('computerSolutions', ['ngRoute'])
+angular.module('computerSolutions', ['ngRoute'])
 
 .config(['$routeProvider', function ($routeProvider) {
   $routeProvider
@@ -11,7 +11,7 @@ var app = angular.module('computerSolutions', ['ngRoute'])
     controller: 'MainCtrl'
   })
   .when('/services', {
-    templetUrl: 'services.html',
+    templateUrl: 'services.html',
     controller: 'ServicesCtrl'
   })
   .when('/contact', {
@@ -23,10 +23,20 @@ var app = angular.module('computerSolutions', ['ngRoute'])
   });
 }])
 
-.controller('MainCtrl', ['$scope', function ($scope) {
-  $scope.person = 'John Doe';
+.controller('MainCtrl', ['$scope', '$http', function ($scope, $http) {
+  $http.get('services.json').then(function (response) {
+    $scope.services = response.data;
+  });
 }])
 
-.controller('ServicesCtrl', ['$scope', function () {}])
+.controller('ServicesCtrl', ['$scope', '$http', function ($scope, $http) {
+  $http.get('services.json').then(function (response) {
+    $scope.services = response.data;
+  });
+}])
 
-.controller('ContactCtrl', ['$scope', function () {}]);
+.controller('ContactCtrl', ['$scope', '$http', function ($scope, $http) {
+  $http.get('locations.json').then(function (response) {
+    $scope.locations = response.data;
+  });
+}]);
